@@ -1,7 +1,7 @@
 import streamlit as st
 from pathlib import Path
 from langchain_classic.agents import create_sql_agent
-from langchain.sql_database import SQLDatabase
+from langchain_community.utilities import SQLDatabase
 from langchain_classic.agents.agent_types import AgentType
 from langchain.callbacks import StreamlitCallbackHandler
 from langchain_classic.agents.agent_toolkits import SQLDatabaseToolkit
@@ -86,6 +86,7 @@ if user_query:
         st.write(response)
 
         
+
 
 
 
