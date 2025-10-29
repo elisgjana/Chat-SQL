@@ -1,4 +1,4 @@
-langchain
+langchain_classic
 python-dotenv
 ipykernel
 langchain-community
@@ -29,4 +29,5 @@ youtube_transcript_api
 unstructured
 pytube
 numexpr
+
 huggingface_hub
