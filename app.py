@@ -3,7 +3,7 @@ from pathlib import Path
 from langchain_classic.agents import create_sql_agent
 from langchain_community.utilities import SQLDatabase
 from langchain_classic.agents.agent_types import AgentType
-from langchain.callbacks import StreamlitCallbackHandler
+from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_classic.agents.agent_toolkits import SQLDatabaseToolkit
 from sqlalchemy import create_engine
 import sqlite3
@@ -86,6 +86,7 @@ if user_query:
         st.write(response)
 
         
+
 
 
 
